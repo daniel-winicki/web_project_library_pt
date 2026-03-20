@@ -268,6 +268,8 @@
 }
 
 .person_name_tarter {
+  top: 70px;
+  left: 159px;
   /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
 }
 
