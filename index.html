@@ -27,10 +27,12 @@
               <a class="nav__link" href="#events">Eventos</a>
             </li>
             <li>
-              <a class="nav__link">Seja um membro</a>
+              <a href="#membership" class="nav__link">Seja um membro</a>
             </li>
             <li>
-              <a class="nav__link">Contatos</a>
+              <a href="#footer__column_content_social" class="nav__link"
+                >Contatos</a
+              >
             </li>
           </ul>
         </nav>
@@ -220,7 +222,7 @@
           <!-- Comece a criar a composição aqui -->
         </section>
 
-        <section class="membership">
+        <section id="membership" class="membership">
           <h2 class="membership__title">Ser membro da biblioteca é fácil</h2>
           <ul class="membership__steps">
             <li class="step">
@@ -276,6 +278,54 @@
           </ul>
         </section>
       </main>
+
+      <footer class="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="./images/logo_white.svg"
+              alt="Logotipo da Biblioteca Triple Peaks"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__column footer__column_content_hours">
+            <h2 class="footer__column-heading">Horário de Funcionamento</h2>
+            <ol class="footer__list">
+              <li class="footer__list-item">Dias úteis: 9h - 20h</li>
+              <li class="footer__list-item">Finais de semana: 10h às 18h</li>
+            </ol>
+          </div>
+          <div
+            class="footer__column footer__column_content_social"
+            id="footer__column_content_social"
+          >
+            <h2 class="footer__column-heading">Redes Sociais</h2>
+            <ol class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Ícone do Facebook"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Ícone do Instagram"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2026 Daniel Winicki</p>
+      </footer>
     </div>
   </body>
 </html>
